@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Khiruls Todo-List</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <i class="fa-solid fa-rectangle-list"></i> KHIRUL's
+        <span>TODO</span> LIST
+      </h1>
+    </header>
+    <form action="#">
+      <input type="text" class="todo-input" />
+      <button class="todo-btn">
+        <i class="fa-solid fa-square-plus"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todos">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
+    <section class="todo-container">
+      <ul class="todo-list"></ul>
+    </section>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7c8958f5bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
